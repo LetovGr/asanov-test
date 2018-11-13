@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+@font-face {
+	font-family: GilroyBold;
+	src: url('../fonts/Gilroy-ExtraBold.woff2') format('woff2'),
+	    url('../fonts/Gilroy-ExtraBold.woff') format('woff');
+	font-weight: 900;
+	font-style: bold;
+}
+
+@font-face {
+	font-family: HeadlineSans;
+	src: url('../fonts/KudryashevHeadlineSans.woff2') format('woff2'),
+	    url('../fonts/KudryashevHeadlineSans.woff') format('woff');
+	font-style: normal;
+}

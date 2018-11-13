@@ -1,0 +1,111 @@
+.header {
+	position: relative;
+	width: 100%;
+	background-color: white;
+
+	&__wrapper {
+		position: relative;
+		display: flex;
+		width: 1180px;
+		margin: 0 auto;
+		padding-top: 81px;
+		align-items: center;
+		overflow: hidden;
+		z-index: 3;
+		background-color: white;
+	}
+
+	&__logo {
+		position: relative;
+		margin-right: 68px;
+		 img{
+			width: 99px;
+			height: 37px;
+		}
+	}
+
+	&__menu {
+		position: relative;
+		display: flex;
+		justify-content: flex-start;
+	}
+
+	&__menu-item {
+		position: relative;	
+		margin-right: 40px;
+
+		&:first-child {
+			margin-right: 43px;
+		}
+	}
+
+	&__menu-item a{
+		font-size: 16px;
+		color: $dark-brown;
+		text-decoration: none;
+		border: none;
+
+		&:hover {
+			color: lighten($dark-brown, 50%);
+		}
+	}
+
+	&__contacts {
+		position: relative;
+		display: flex;
+		justify-content: flex-end;
+		flex-grow: 1;
+		z-index: 5;
+	}
+
+	&__phone {
+		position: relative;	
+		margin-right: 10px;
+
+		img {
+		width: 16px;
+		height: 16px;
+		}
+	}
+
+	&__number {
+		position: relative;
+		margin-right: 42px;
+
+		a {
+			display: inline-block;
+			font-size: 16px;
+			color: $dark-brown;
+			border: none;
+			text-decoration: none;
+
+
+			&:hover {
+				color: lighten($dark-brown, 50%);
+			}
+		}	
+	}
+
+	&__search {
+		position: relative;
+		cursor: pointer;	
+
+		img {
+			width: 14px;
+			height: 15px;
+		}
+	}
+
+	&__language {
+		position: relative;	
+		font-size: 	16px;
+		margin-left: 39px;
+		color: $dark-brown;
+		cursor: pointer;
+
+		&:hover {
+			color: lighten($dark-brown, 50%);
+		}
+	}
+
+}

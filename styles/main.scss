@@ -1,0 +1,17 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+	overflow: visible;
+	font-family: 'Open Sans', sans-serif;
+}
+
+$dark-brown: #1e0f00;
+
+@import "fonts.scss";
+@import "header.scss";
+@import "home.scss";
+
